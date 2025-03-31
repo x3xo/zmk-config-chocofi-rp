@@ -12,10 +12,6 @@
     transform = <&default_transform>;
 };
 
-&chocofi {
-    transform = <&five_column_transform>;
-};
-
 / {
     chosen {
         zephyr,display = &oled;
