@@ -47,7 +47,7 @@
 
         combo_escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <25 27>;
+            key-positions = <28 26>;
         };
 
         combo_minus {
@@ -57,7 +57,22 @@
 
         combo_equals {
             bindings = <&kp EQUAL>;
-            key-positions = <21 22>;
+            key-positions = <34 33>;
+        };
+
+        combo_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <8 9>;
+        };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <7 8 9>;
+        };
+
+        comgo_enter_2 {
+            bindings = <&kp ENTER>;
+            key-positions = <38 39>;
         };
     };
 
@@ -99,10 +114,10 @@
 
             display-name = "layer_2";
             bindings = <
-&none  &none  &none  &none       &none      &none        &kp AT     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND    &kp ASTERISK   &none
-&none  &none  &none  &none       &none      &none        &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp HASH       &none
-&none  &none  &none  &none       &none      &none        &kp PRCNT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp BACKSLASH  &none
-                     &kp DELETE  &kp LG(C)  &kp LG(V)    &kp ENTER  &kp BACKSLASH         &none
+&none  &none  &none  &none       &none      &none        &kp AT           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp ASTERISK   &none
+&none  &none  &none  &none       &none      &none        &kp CARET        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &kp HASH       &none
+&none  &none  &none  &none       &none      &none        &kp PRCNT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp BACKSLASH  &none
+                     &kp DELETE  &kp LG(C)  &kp LG(V)    &kp EXCLAMATION  &kp GRAVE             &none
             >;
         };
 
