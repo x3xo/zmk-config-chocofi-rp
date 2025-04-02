@@ -77,7 +77,7 @@
 
         enter_3 {
             bindings = <&kp ENTER>;
-            key-positions = <31 32>;
+            key-positions = <32 33>;
         };
 
         escape_2 {
