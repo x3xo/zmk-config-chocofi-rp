@@ -181,10 +181,10 @@
 
         misc {
             bindings = <
-&none  &none  &none      &none    &none      &none    &none  &none  &none  &none  &none  &none
-&none  &none  &kp GRAVE  &kp TAB  &kp GRAVE  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none      &none    &none      &none    &none  &none  &none  &none  &none  &none
-                         &none    &none      &none    &none  &none  &none
+&none  &none  &none      &none    &none      &none    &none  &none      &none    &none      &none  &none
+&none  &none  &kp GRAVE  &kp TAB  &kp GRAVE  &none    &none  &kp GRAVE  &kp TAB  &kp GRAVE  &none  &none
+&none  &none  &none      &none    &none      &none    &none  &none      &none    &none      &none  &none
+                         &none    &none      &none    &none  &none      &none
             >;
         };
     };
