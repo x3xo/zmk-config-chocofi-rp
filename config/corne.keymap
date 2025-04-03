@@ -90,7 +90,7 @@
 
         combo_equals {
             bindings = <&kp EQUAL>;
-            key-positions = <34 33>;
+            key-positions = <39 21>;
         };
 
         combo_quote {
