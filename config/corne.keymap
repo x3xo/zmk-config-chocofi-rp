@@ -144,7 +144,7 @@
 &none  &kp Q                &kp W            &kp E            &kp R              &kp T            &kp Y      &kp U               &kp I             &kp O             &kp P                    &none
 &none  &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HML LEFT_GUI D  &HML LEFT_SHIFT F  &lt 2 G          &lt 1 H    &HMR RIGHT_SHIFT J  &HMR RIGHT_GUI K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMI  &none
 &none  &kp Z                &kp X            &lt 1 C          &kp V              &kp B            &kp N      &kp M               &kp COMMA         &kp DOT           &kp QUESTION             &none
-                                             &lt 3 ESCAPE     &lm 4 LGUI         &kp BACKSPACE    &kp SPACE  &kp ENTER           &kp TAB
+                                             &lt 3 ESCAPE     &lm 4 LGUI         &kp BACKSPACE    &kp SPACE  &kp ENTER           &lt 3 TAB
             >;
         };
 
