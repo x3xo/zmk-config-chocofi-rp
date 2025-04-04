@@ -85,7 +85,7 @@
 
         combo_minus {
             bindings = <&kp MINUS>;
-            key-positions = <10 9>;
+            key-positions = <10 39>;
         };
 
         combo_equals {
@@ -118,14 +118,9 @@
             key-positions = <26 27>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
+        tilde {
+            bindings = <&kp TILDE>;
             key-positions = <39 34>;
-        };
-
-        combo_minus_2 {
-            bindings = <&kp MINUS>;
-            key-positions = <10 39>;
         };
     };
 
@@ -167,10 +162,10 @@
 
             display-name = "layer_2";
             bindings = <
-&none  &none  &none  &none       &none      &none        &kp AT           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp ASTERISK   &none
-&none  &none  &none  &none       &none      &none        &kp CARET        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &kp HASH       &none
-&none  &none  &none  &none       &none      &none        &kp PRCNT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp BACKSLASH  &none
-                     &kp DELETE  &kp LG(C)  &kp LG(V)    &kp EXCLAMATION  &kp GRAVE             &none
+&none  &none  &none  &none               &none  &none         &kp AT           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND  &kp ASTERISK   &none
+&none  &none  &none  &none               &none  &none         &kp CARET        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &kp HASH       &none
+&none  &none  &none  &none               &none  &none         &kp PRCNT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp BACKSLASH  &none
+                     &kp LS(LC(DELETE))  &none  &kp DELETE    &kp EXCLAMATION  &kp GRAVE             &none
             >;
         };
 
