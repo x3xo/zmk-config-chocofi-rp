@@ -123,12 +123,12 @@
             key-positions = <39 34>;
         };
 
-        tab2 {
+        combo_tab2 {
             bindings = <&kp TAB>;
             key-positions = <5 38>;
         };
 
-        tab3 {
+        combo_tab3 {
             bindings = <&kp TAB>;
             key-positions = <6 38>;
         };
@@ -136,6 +136,11 @@
         combo_escape_1 {
             bindings = <&kp ESCAPE>;
             key-positions = <3 8>;
+        };
+
+        combo_tab4 {
+            bindings = <&kp TAB>;
+            key-positions = <16 19>;
         };
     };
 
