@@ -147,6 +147,11 @@
             bindings = <&kp ENTER>;
             key-positions = <7 19>;
         };
+
+        combo_tab_4 {
+            bindings = <&kp TAB>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
