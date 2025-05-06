@@ -78,7 +78,7 @@
             key-positions = <27 28>;
         };
 
-        combo_enter1 {
+        combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <38 39>;
         };
@@ -98,18 +98,18 @@
             key-positions = <39 22>;
         };
 
-        combo_enter {
+        combo_enter_2 {
             bindings = <&kp ENTER>;
             key-positions = <7 8 9>;
         };
 
-        comgo_enter_2 {
+        comgo_enter_3 {
             bindings = <&kp ENTER>;
             key-positions = <28 26>;
         };
 
-        combo_enter_3 {
-            bindings = <&kp ENTER>;
+        combo_tab_2 {
+            bindings = <&kp TAB>;
             key-positions = <32 33>;
         };
 
@@ -123,12 +123,12 @@
             key-positions = <39 34>;
         };
 
-        combo_tab2 {
+        combo_tab_3 {
             bindings = <&kp TAB>;
             key-positions = <3 15>;
         };
 
-        combo_tab3 {
+        combo_tab_4 {
             bindings = <&kp TAB>;
             key-positions = <8 20>;
         };
@@ -146,11 +146,6 @@
         combo_enter_5 {
             bindings = <&kp ENTER>;
             key-positions = <7 19>;
-        };
-
-        combo_tab_4 {
-            bindings = <&kp TAB>;
-            key-positions = <31 32>;
         };
     };
 
