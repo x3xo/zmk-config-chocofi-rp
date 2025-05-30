@@ -142,11 +142,6 @@
             bindings = <&kp ENTER>;
             key-positions = <7 19>;
         };
-
-        combo_hash {
-            bindings = <&kp HASH>;
-            key-positions = <18 39>;
-        };
     };
 
     keymap {
